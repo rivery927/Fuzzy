@@ -627,4 +627,4 @@ alias isaac_run="${ISAACSIM_PATH}/isaac-sim.sh"
 
 **文档结束**
 
-*本文档由 Claude AI 协助生成*
+*acknowledgment：本文档由 Claude AI 协助生成*
