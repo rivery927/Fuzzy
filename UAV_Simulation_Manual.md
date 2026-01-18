@@ -85,7 +85,7 @@ nvidia-smi
      ↓
 通信层:     ROS2 JAZZY (机器人通信中间件)
      ↓
-飞控层:     PX4-Autopilot v1.14.3 (无人机飞控软件)
+飞控层:     PX4-Autopilot v1.15.4 (无人机飞控软件)
      ↓
 仿真层:     Pegasus Simulator (无人机仿真框架)
      ↓
@@ -163,7 +163,7 @@ $ISAACSIM_PYTHON your_script.py
 
 **注意**: 第一次启动需要 5-15 分钟编译着色器缓存。
 
-## 4.7 PX4-Autopilot v1.14.3
+## 4.7 PX4-Autopilot v1.15.4
 
 开源无人机飞控软件，负责：
 - 读取传感器数据

@@ -7,7 +7,7 @@
 - NVIDIA Driver 580.x + CUDA 13.0
 - ROS2 JAZZY
 - Isaac Sim 5.1.0
-- PX4-Autopilot v1.14.3
+- PX4-Autopilot v1.15.4
 - Pegasus Simulator 5.1.0
 
 **预计时间**: 2-3 小时（取决于网络速度）  
@@ -290,11 +290,11 @@ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 
 > **注意**: 这会下载约 500MB，需要几分钟
 
-## 8.3 切换到 v1.14.3 版本
+## 8.3 切换到 v1.15.4 版本
 
 ```bash
 cd ~/PX4-Autopilot
-git checkout -f v1.14.3
+git checkout -f v1.15.4
 git submodule update --init --recursive --force
 ```
 
@@ -397,7 +397,7 @@ alias isaac_run="${ISAACSIM_PATH}/isaac-sim.sh"
 │   ├── isaac-sim.sh            # 主启动脚本
 │   ├── python.sh               # Python 解释器
 │   └── ...
-├── PX4-Autopilot/               # PX4 飞控软件 (v1.14.3)
+├── PX4-Autopilot/               # PX4 飞控软件 (v1.15.4)
 │   ├── src/
 │   ├── build/
 │   └── ...
